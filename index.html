@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector Game</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+
+	<body background="assets/images/dragonfight.jpg"></body>
+
+
+	<div class="container-fluid">
+		<!-- Content here -->
+
+		<!--First row crystal-->
+		<div class="row">
+			<div class="col-md-12">
+				<h1>Crystal Collector Game</h1>
+			</div>
+		</div>
+		<br>
+
+		<audio controls>
+			<source src="assets/audio/Houseki no Kuni Battle.mp3 砕かれる.mp3" type="audio">
+			<source src="assets/audio/Houseki no Kuni Battle.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+
+		<!--Second row crystal info-->
+		<div class="row">
+			<div class="col-md-12 instructions box">
+				<h3>Instructions</h3>
+				<p> Hurry Dragon Slayer Assemble your team! You will be given a random number at the start of the game. This is
+					your target score to defeat the dragon.</p>
+				<p>There are four element crystals below. By clicking on a crystal, you will add a specific amount of points to
+					your score. You win the game by matching your total score to the target score saving your village. You lose the
+					game if your score exceeds the target score and will become the dragon meal.</p>
+				<p>The value of each crystal is hidden from you until you click on it, and then you can determine the value by
+					seeing how many points were added to your total score.</p>
+				<p>Each time the game starts, your target score and the values of the crystals will change! <span>Click any crystal
+						to start the game.</span></p>
+			</div>
+		</div>
+		<br>
+
+
+		<div class="modal alert row text-center">
+			<h3 id="winloss"></h3>
+			<a href="#" class="btn btn-lg btn-success" data-toggle="modal" data-target="#basicModal">Play Again</a>
+		</div>
+		<br>
+		<!--Third row-->
+		<div class="row box">
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-12">
+						<h4>Target Score: </h4>
+						<div id="scoreTarget"></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h4>Your Score: </h4>
+						<div id="scoreBox">0</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-12">
+						<h4>Wins: </h4>
+						<div id="wins"></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h4>Losses: </h4>
+						<div id="losses">0</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<img id="bluecrystal" class="crystalButton" src="assets/images/bluecrystal.png" alt="bluecrystal">
+		<img id="greencrystal" class="crystalButton" src="assets/images/greencrystal.png">
+		<img id="redcrystal" class="crystalButton" src="assets/images/redcrystal.png">
+		<img id="yellowcrystal" class="crystalButton" src="assets/images/yellowcrystal.png">
+	</div>
+	<audio id="musicyellow" src="assets/audio/lightingstrike.wav">
+	</audio>
+
+	<div class="row box">
+
+		<div class="footer">
+
+			<img src="assets/images/magicfooterlayout.jpg" class="img-responsive" width="100%" alt="Footer Image" />
+			<p>&copy Copyright 2018 | Stephanie Galindo </p>
+		</div>
+
+	</div>
+
+	</form>
+
+
+
+
+	</div>
