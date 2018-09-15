@@ -2,7 +2,7 @@ var currentScore = 0;
 var winCounter = 0;
 var lossCounter = 0;
 var targetScore = 0;
-
+//varaiable for the wins, losses, target, and current score//
 //assigned random number//
 targetScore = Math.round(Math.random() * (120 - 19) + 19);
 //hidden random number for crystals//
@@ -28,24 +28,31 @@ $(document).ready(function () {
     $("#scoreTarget").html(targetScore);
     crystalBtn.click(function (e) {
 
-        //detect which crystal was click//
+        //detect which crystal was click and added music file below it//
         if (e.target.id == "bluecrystal") {
             currentScore += crystal1;
+            var audio = document.getElementById("musicblue");
+            audio.play();
         }
         if (e.target.id == "greencrystal") {
             currentScore += crystal2;
+            var audio = document.getElementById("musicgreen");
+            audio.play();
         }
         if (e.target.id == "redcrystal") {
             currentScore += crystal3;
+            var audio = document.getElementById("musicred");
+            audio.play();
+
         }
         if (e.target.id == "yellowcrystal") {
             currentScore += crystal4;
             var audio = document.getElementById("musicyellow");
             audio.play();
         }
+/// end of the crystal gems information///
 
-
-
+// the current score box where the wins is detected//
         $("#scoreBox").html(currentScore);
         console.log(currentScore);
         //add the crystal vaule to the user score//
@@ -66,6 +73,7 @@ $(document).ready(function () {
         }
     })
 
+    //footer has no java but was created in photoshop by me and insert as a image//
     
 
 
