@@ -1,8 +1,9 @@
-# Crystal Dragon Game 
-#CrystalChallenge
+# Crystal Dragon Game 	:dragon:	:fire:💀
+#CrystalChallenge 	
 
 Live Link : https://stephaniegalindo10.github.io/unit-4-game/
-## Game Design Notes
+
+## Game Design Notes :dragon_face:
 *Game theme was inspire from old rpg games deafting dragons.
 
 Description on how to use the app
@@ -31,7 +32,10 @@ The app should show the number of games the player wins and loses. To that end, 
 
 
 ## Technologies Used
-Jquery for Dom Manipulation
-HTML
-CSS
-Javascript
+* Jquery for Dom Manipulation
+* HTML
+* CSS
+* Javascript
+
+# Author :octocat:
+* Stephanie Galindo - U.C. Davis Bootcamp
