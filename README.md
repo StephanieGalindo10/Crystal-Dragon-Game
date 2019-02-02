@@ -1,21 +1,14 @@
 # Crystal Dragon Game 
 #CrystalChallenge
 
-In order to create this project I created 
-
-Javascript
-HTML
-CSS
-Reset.CSSS
-Audio
-
 Live Link : https://stephaniegalindo10.github.io/unit-4-game/
+Game Design Notes
+*Game theme was inspire from old rpg games deafting dragons.
 
-
-
+Description on how to use the app
 Game Play Dynamic :
 
-There will be four crystals displayed as buttons on the page.
+There will be various crystals displayed as buttons on the page.
 The player will be shown a random number at the start of the game.
 
 When the player clicks on a crystal, it will add a specific amount of points to the player's total score. 
@@ -35,3 +28,10 @@ When the game begins again, the player should see a new random number. Also, all
 
 
 The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
+
+
+Technologies Used
+Jquery for Dom Manipulation
+HTML
+CSS
+Javascript
