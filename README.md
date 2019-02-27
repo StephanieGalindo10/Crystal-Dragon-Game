@@ -1,7 +1,7 @@
 # Crystal Dragon Game 	:dragon:	:fire:💀
 #CrystalChallenge 	
 
-Live Link : https://stephaniegalindo10.github.io/unit-4-game/
+Live Link : https://stephaniegalindo10.github.io/Crystal-Dragon-Game/
 
 ## Game Design Notes :dragon_face:
 *Game theme was inspire from old rpg games deafting dragons.
